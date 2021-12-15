@@ -3,5 +3,5 @@ function add() {
 	echo "$1 + $2 = $c";
 }
 
-result=$( add $((RANDOM%10)) $((RANDOM%10)) );
+result=$( add $((RANDOM%90 + 10)) $((RANDOM%90 + 10)) );
 echo $result;
